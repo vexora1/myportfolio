@@ -1,2 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Kode Mono', monospace;
+}

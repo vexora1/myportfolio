@@ -1,5 +1,5 @@
 import { CgMouse } from "react-icons/cg";
-import { Typewriter } from 'react-simple-typewriter'
+import { Typewriter } from "react-simple-typewriter";
 
 const Header = () => {
   return (
@@ -8,24 +8,14 @@ const Header = () => {
       className="relative flex items-center justify-center h-screen"
     >
       <div className="relative flex-col flex items-center justify-center h-screen">
-        <h1
-          className="text-6xl text-white font-bold"
-          style={{
-            fontFamily: "Kode Mono",
-          }}
-        >
-          John Doe
-        </h1>
+        <h1 className="text-6xl text-blue-500 font-bold">John Doe</h1>
 
         <p
           className="text-2xl text-gray-300 mt-4"
-          style={{
-            fontFamily: "Kode Mono",
-          }}
           id="typewriter"
         >
           <Typewriter
-            words={['Web Developer', 'UI/UX Designer', 'Content Creator']}
+            words={["Web Developer", "UI/UX Designer", "Content Creator"]}
             loop={0}
             cursor
             typeSpeed={70}
